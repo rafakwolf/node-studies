@@ -1,5 +1,3 @@
-console.log('n-fatorial');
-
 const fatorial = (num) => {
     if (num === 0) {
         return 1;
@@ -8,4 +6,4 @@ const fatorial = (num) => {
     }
 }
 
-console.log(`fatorial de 5 é = ${fatorial(5)}`);
+module.exports = fatorial;
